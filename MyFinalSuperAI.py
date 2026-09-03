@@ -8,7 +8,7 @@ st.title("🧠 Zenis GPT")
 st.write("⚡ Boundless intelligence. Instant answers. Your personal 🧠Zenis GPT.")
 
 # 🔑 यहाँ अपनी Groq API Key डालें जो gsk_ से शुरू होती है
-GROQ_API_KEY = ""
+GROQ_API_KEY = st.secrets["GROQ_API_KEY"]
 
 user_input = st.text_input("Ask anything to Zenis AI", placeholder="Ask your questions here...")
 
